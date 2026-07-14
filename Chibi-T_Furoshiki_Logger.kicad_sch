@@ -5,7 +5,8 @@
 	(uuid "70c425e8-c82b-42c0-a373-0ea779731c61")
 	(paper "A4")
 	(title_block
-		(date "2022-10-23")
+		(date "2026-07-14")
+		(rev "2.00")
 	)
 	(lib_symbols
 		(symbol "+3V3_1"
@@ -12860,108 +12861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 60.96 35.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0aa5ff06-01f1-4df3-81f6-560d94931fd3")
-		(property "Reference" "L1"
-			(at 60.96 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 60.96 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 60.96 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 60.96 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1046"
-			(at 60.96 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 60.96 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2085fecb-31e5-40ee-bf93-f52391c41a20")
-		)
-		(pin "2"
-			(uuid "e9353f60-b205-4dfe-86ac-bbe98344066f")
-		)
-		(instances
-			(project "Chibi-T_Furoshiki_Logger"
-				(path "/70c425e8-c82b-42c0-a373-0ea779731c61"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 266.7 31.75 0)
 		(unit 1)
@@ -14366,7 +14265,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22452 "
+		(property "LCSC" "C22452"
 			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -15785,6 +15684,108 @@
 			(project "Chibi-T_Furoshiki_Logger"
 				(path "/70c425e8-c82b-42c0-a373-0ea779731c61"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 60.96 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a29c16fc-e9cd-4a6d-8929-25675c885d80")
+		(property "Reference" "L1"
+			(at 60.96 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 60.96 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA3015S"
+			(at 60.96 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 60.96 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45403"
+			(at 60.96 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 60.96 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7756e40b-f491-440a-aa2a-61fbe1ba3f65")
+		)
+		(pin "2"
+			(uuid "819476ab-80d1-42fc-95de-31d935e760e7")
+		)
+		(instances
+			(project "Chibi-T_Furoshiki_Logger"
+				(path "/70c425e8-c82b-42c0-a373-0ea779731c61"
+					(reference "L1")
 					(unit 1)
 				)
 			)

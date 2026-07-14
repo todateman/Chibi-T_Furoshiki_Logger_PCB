@@ -1,5 +1,4 @@
 *backups/
 .history/
 .DS_Store
-production/
 *.lck
